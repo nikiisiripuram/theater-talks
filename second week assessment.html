@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater Tlaks</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+ 
+    <!-- Custom CSS -->
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #262626;
+        }
+        .movie-card {
+            margin: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="titleName bg-dark text-white">
+                <img class="logo" src="logo.jpeg" alt="logo"> Theater Talks
+            </h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <!-- Button for mobile and tablet views -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Latest Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- New Arrivals Carousel -->
+    <section id="newArrivals" class="container mt-4">
+        <h1><mark>New Arrivals</mark></h1>
+        <p>Watch the latest trailers and clips from the internet.</p>
+        <div id="videoCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video autoplay muted loop controls style="width: 60%;">
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video autoplay muted loop controls style="width: 60%;">
+                            <source src="video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <video autoplay muted loop controls style="width: 60%;">
+                            <source src="video3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="ftco-section ftco-wrap-about">
+        <div class="review container">
+            <div class="row">
+                <div class="col-md-5 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate fadeInUp ftco-animated">
+                    <div class="heading-section mb-4 my-5 my-md-0">
+                        <span class="subheading text-white">About</span>
+                        <h2 class="mb-4 display-1 text-white">Theater Tlaks</h2>
+                    </div>
+                    <p><span class="highlight text-white">Theater talks is a renowned movie review company that brings a unique and insightful lens to the world of cinema. With a team of passionate movie enthusiasts and expert critics, Popcorn Perspective offers a fresh and engaging perspective on the latest films, from blockbusters to indie gems.</span></p>
+                    <p><span class="highlight text-white">What sets apart is Theater Talks its commitment to providing more than just standard movie reviews.</span></p>
+                </div>
+    
+                <div class="mvimg col-md-7 d-flex align-items-end justify-content-end">
+                    <img src="th.jpeg" class="rounded-circle" style="max-width: 600px;">
+                </div>
+            </div>
+        </div>
+    </section>     
+</main>
+<!-- Top Movie Reviews -->
+<section class="container mt-4">
+    <h1>Top Movie Reviews</h1>
+    <div class="row">
+        <!-- Movie Review 1 (Action) -->
+        <div class="col-md-4">
+            <div class="movie-card">
+                <img src="movie1.jpeg" alt="Movie 1 Poster" class="img-fluid equal-height-image">
+                <h3>Aladdin</h3>
+                <p>Discover the magical world of "Aladdin" in this Disney animated classic.,The story is set in the fictional city of Agrabah and follows the adventures of a young man named Aladdin kind-hearted but impoverished street thief with dreams of a better life. He stumbles upon a magical lamp containing a powerful Genie who can grant him three wishes. Aladdin uses one of his wishes to become a prince. Aladdin uses one of his wishes to become a prince.</p>
+                <a href="movie1review.html" class="btn btn-primary">Read Review</a>
+            </div>
+        </div>
+
+        <!-- Movie Review 2 (Fantasy) -->
+        <div class="col-md-4">
+            <div class="movie-card">
+                <img src="movie2.jpeg" height="700px" alt="Movie 2 Poster"  class="img-fluid equal-height-image">
+                <h3>Avengers</h3>
+                <p>Join the Earth's mightiest heroes in the epic "Avengers" saga. Witness thrilling battles, heroic sacrifices, and the ultimate showdown with ThanosIn the first Avengers film, Loki, the adopted brother of Thor and the god of mischief, comes to Earth with a powerful artifact called the Tesseract. He uses mind control to manipulate several Earthlings and forms an alliance with the alien race known as the Chitauri. Together, they plan to conquer Earth. Nick Fury, the director of the espionage agency S.H.I.E.L.D. iorn man, captain america, hulk.</p>
+                <a href="movie2review.html" class="btn btn-primary">Read Review</a>
+            </div>
+        </div>
+
+        <!-- Movie Review 3 (Drama) -->
+        <div class="col-md-4">
+            <div class="movie-card">
+                <img src="movie3.jpeg" alt="Movie 3 Poster" class="img-fluid equal-height-image">
+                <h3>Doctor Strange</h3>
+                <p>Explore the mystical arts with Dr. Stephen Strange in "Doctor Strange." Experience mind-bending visuals, ancient secrets, and a hero's journey of self-discovery. fights against evil forces and join alliiance with avengers to help in war continues the battle between dormanamu and ancient onen the epic "Avengers" saga. Witness thrilling battles, heroic sacrifices, and the ultimate showdown with ThanosIn the first Avengers film, Loki, the adopted brother of Thor and  and the ultimate showdown with ThanosIn the first Avengers film, Loki, </p>
+                <a href="movie3 review.html" class="btn btn-primary">Read Review</a>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    /* Custom CSS to make columns the same size */
+    .image-grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS to make columns the same size */
+        .image-grid-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        /* Style for the modal content */
+        .modal-content {
+            background-color: #333;
+            color: #fff;
+        }
+        /* Style for the modal body */
+        .modal-body {
+            text-align: center;
+        }
+        /* Style for the modal title */
+        .modal-body h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        /* Style for the modal text */
+        .modal-body p {
+            font-size: 16px;
+        }
+        /* Style for the modal images */
+        .modal-body img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="latestmovies">Latest Movies</h1>
+        <div class="row image-grid">
+            <div class="col-md-4 image-grid-item">
+                <img src="amazingspiderman1.jpeg" alt="Image 1" class="img-fluid" data-toggle="modal" data-target="#imageModal1">
+                <div class="modal fade" id="imageModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="amazingspiderman1.jpeg" alt="Image 1" class="img-fluid">
+                                <h1>Amazing Spiderman</h1>
+                                <p>The Amazing Spider-Man" is a popular superhero comic book series published by Marvel Comics. It has had numerous storylines and arcs over the years. Here's a general overview of the plot and key elements that have been present in many Spider-Man stories:
+                                   Origin Story: Most Spider-Man stories begin with the origin of the character. Peter Parker, a young high school student, is bitten by a radioactive spider, granting him incredible powers, including superhuman strength, agility, and the ability to cling to walls. He also develops a "spider-sense" that alerts him to danger.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 image-grid-item">
+                <img src="iron man.jpeg" alt="Image 2" class="img-fluid" data-toggle="modal" data-target="#imageModal2">
+                <div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="iron man.jpeg" alt="Image 2" class="img-fluid">
+                                <h1>Iron Man 3</h1>
+                                <p>Iron Man 3" is the third installment in the Iron Man film series within the Marvel Cinematic Universe (MCU). Here's a plot summary of the movie:
+                                    The movie opens with a flashback to 1999, where Tony Stark (played by Robert Downey Jr.) meets a scientist named Aldrich Killian (played by Guy Pearce) at a New Year's Eve party. Tony dismisses Killian's research, and the two part ways.
+                                    Fast forward to the present day, where Tony is dealing with the aftermath of the Chitauri invasion in "The Avengers." He's suffering from panic attacks and insomnia and has become obsessed with building numerous Iron Man suits. Meanwhile, a terrorist known as the Mandarin (played by Ben Kingsley) begins a series of bombings and attacks in the United States, leaving cryptic messa
+                                    When Happy Hogan (played by Jon Favreau), Tony's friend and head of security, is injured in one of the Mandarin's attacks, Tony issues a public threat to the Mandarin, giving out his home address. In retaliation, the Mandarin's forces destroy Tony's mansion with him inside, and it is believed that Tony is killed.
+                                    Tony survives but is left without his suit or his resources. He ends up in a small town in Tennessee where he meets a young boy named Harley Keener (played by Ty Simpkins), who helps him repair one of his damaged suits. Tony investigates the Mandarin's attacks and discovers that they are not what they seem. It turns out that Aldrich Killian, the scientist he met in 1999, has developed a process called Extremis, which grants superhuman abilities but can be unstable and deadl
+                                    With the help of his repaired suit, Tony confronts Killian, rescues Pepper Potts (played by Gwyneth Paltrow), his girlfriend and CEO of Stark Industries, who had been injected with Extremis, and battles Killian's superhuman henchmen. In the climactic showdown, Tony calls upon his many Iron Man suits, remotely controlling them to aid him in the fig
+                                    The movie ends with Tony undergoing surgery to remove the shrapnel near his heart, which has been a recurring threat throughout the Iron Man films, and he destroys all of his Iron Man suits as a symbolic gesture of moving on from being obsessed with his technology.
+                                    "Iron Man 3" explores themes of identity, post-traumatic stress, and the consequences of Tony's actions as a superhero. It also adds depth to his character as he deals with challenges both physical and psychological. The film is known for its unexpected twists, including the revelation about the Mandarin's true identity, which surprised many viewers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 image-grid-item">
+                <img src="https://th.bing.com/th/id/OIP.OqlalKPmTd8jok9SJYDbQgHaJQ?pid=ImgDet&rs=1" alt="Image 3" class="img-fluid" data-toggle="modal" data-target="#imageModal3">
+                <div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="https://th.bing.com/th/id/OIP.OqlalKPmTd8jok9SJYDbQgHaJQ?pid=ImgDet&rs=1" alt="Image 3" class="img-fluid">
+                                <h1>ms shettt mrs polishetty</h1>
+                                <p> Anvitha Ravali Shetty is a 30 year old single independent woman working as a master chef in the United Kingdom living with her single mother. Her mother has very less time left to live as she suffers from an unknown illness so she keeps convincing her daughter to get married soon. Anvitha who is very adamant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above div structure for additional images -->
+        </div>
+        <!-- Repeat the above div structure for additional images -->
+    </div>
+</div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Contact Us</h3>
+                <p>Have questions or feedback? Feel free to get in touch with us.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Address</h4>
+                <p>madhura wada , It hill no 3 </p>
+                <p>vishakapatnam, india</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Email</h4>
+                <p>Email: contact@theatertalks.com</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Phone</h4>
+                <p>Phone: 9032522052    </p>
+            </div>
+        </div>
+    </div>
+    <!-- Social Media Icons -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Follow Us</h4>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
